@@ -1,0 +1,18 @@
+export type Display = 'flex' | 'inline-flex' | 'block'
+export type Direction =
+    | 'h'
+    | 'v'
+    | 'h-r'
+    | 'v-r'
+    | 'horizontal'
+    | 'vertical'
+    | 'horizontal-reverse'
+    | 'vertical-reverse'
+export type AlignType = 'start' | 'end' | 'center' | 'baseline' | 'stretch'
+export type JustifyType =
+    | 'start'
+    | 'end'
+    | 'center'
+    | 'between'
+    | 'around'
+    | 'evenly'
